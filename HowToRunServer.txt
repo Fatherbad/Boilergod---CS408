@@ -1,7 +1,14 @@
 be sure to install node.js
-then pull the git repo
-* our git rep
+then pull our git repo
 change directory to angular seed
 then type "npm install" pray for no errors, fix if there are
 then type "npm start" and open web browser and go to localhost:8000
 and boom thats how to run site. Now alls we gotta do is make the site
+
+if you get the no python error then run the command "npm install -g npm-gyp"
+if you get the no bower install error run "npm install -g bower"
+then run npm install again, and it should work
+
+also make sure you got python installed
+and set the path variable for it in windows
+Also install normal git, not github or anything, straight up git
