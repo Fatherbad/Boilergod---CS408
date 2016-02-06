@@ -9,6 +9,8 @@ if you get the no python error then run the command "npm install -g npm-gyp"
 if you get the no bower install error run "npm install -g bower"
 then run npm install again, and it should work
 
+
+EXIT YOUR COMMAND PROMPT AND REOPEN AFTER DOING ALL THE BELOW
 also make sure you got python installed
 and set the path variable for it in windows
 Also install normal git, not github or anything, straight up git
