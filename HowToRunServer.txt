@@ -12,3 +12,4 @@ then run npm install again, and it should work
 also make sure you got python installed
 and set the path variable for it in windows
 Also install normal git, not github or anything, straight up git
+here is how it do: http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/
