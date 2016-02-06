@@ -6,15 +6,15 @@ Everything. Need to assign jobs, make graphics, make home page, EVERYTHING.
 
 ##Priorities
 ###Sprint1 Goals
-Get core of game
-Drag drop functionality
-Design element tree and get that implemented
-Save Game/Load Game/Reset Game stuff
-Cheap lazy animation for combinations
+  *Get core of game
+  *Drag drop functionality
+  *Design element tree and get that implemented
+  *Save Game/Load Game/Reset Game stuff
+  *Cheap lazy animation for combinations
 
 ###Sprint2 Goals
-Art
-Home page
+  *Art
+  *Home page
 
 
 ##Setup
