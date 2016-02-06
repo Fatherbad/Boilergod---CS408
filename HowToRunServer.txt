@@ -1,0 +1,7 @@
+be sure to install node.js
+then pull the git repo
+* our git rep
+change directory to angular seed
+then type "npm install" pray for no errors, fix if there are
+then type "npm start" and open web browser and go to localhost:8000
+and boom thats how to run site. Now alls we gotta do is make the site
