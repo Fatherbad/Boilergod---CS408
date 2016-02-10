@@ -1,0 +1,9 @@
+C:\Users\Student\Desktop\Dewey\Game\Game\bin\Debug\Game.exe
+C:\Users\Student\Desktop\Dewey\Game\Game\bin\Debug\Game.pdb
+C:\Users\Student\Desktop\Dewey\Game\Game\obj\x86\Debug\Game.Properties.Resources.resources
+C:\Users\Student\Desktop\Dewey\Game\Game\obj\x86\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Dewey\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Student\Desktop\Dewey\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Student\Desktop\Dewey\Game\Game\obj\x86\Debug\Game.Form1.resources
+C:\Users\Student\Desktop\Dewey\Game\Game\obj\x86\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Dewey\Game\Game\obj\x86\Debug\Game.HelpForm.resources
