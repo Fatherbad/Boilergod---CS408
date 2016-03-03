@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -695,7 +695,9 @@ namespace Game
         public void getCards()
         {
             ArrayList hand = Player.getHand();
-            //card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/deck_1.png");
+            //card1.Image = Image.FromFile(current + "/Images/deck_1.png");
+            
+            String current = System.IO.Directory.GetCurrentDirectory();
 
             for (int i = 0; i < 5; i++)
             {
@@ -711,19 +713,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ace_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ace_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ace_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_clubs.png");
+                                        card4.Image = Image.FromFile(current + "Images/Cards/ace_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ace_clubs.png");
                                         break;
                                 }
                                 break;
@@ -731,19 +733,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ace_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ace_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ace_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/ace_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ace_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -751,19 +753,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ace_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ace_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ace_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/ace_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ace_hearts.png");
                                         break;
                                 }
                                 break;
@@ -771,19 +773,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ace_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ace_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ace_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/ace_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ace_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ace_spades.png");
                                         break;
                                 }
                                 break;
@@ -796,19 +798,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/two_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/two_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/two_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/two_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/two_clubs.png");
                                         break;
                                 }
                                 break;
@@ -816,19 +818,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/two_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/two_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/two_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/two_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/two_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -836,19 +838,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/two_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/two_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/two_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/two_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/two_hearts.png");
                                         break;
                                 }
                                 break;
@@ -856,19 +858,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/two_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/two_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/two_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/two_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/two_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/two_spades.png");
                                         break;
                                 }
                                 break;
@@ -881,19 +883,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/three_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/three_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/three_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/three_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/three_clubs.png");
                                         break;
                                 }
                                 break;
@@ -901,19 +903,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/three_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/three_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/three_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/three_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/three_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -921,19 +923,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/three_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/three_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/three_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/three_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/three_hearts.png");
                                         break;
                                 }
                                 break;
@@ -941,19 +943,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/three_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/three_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/three_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/three_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/three_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/three_spades.png");
                                         break;
                                 }
                                 break;
@@ -966,19 +968,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/four_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/four_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/four_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/four_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/four_clubs.png");
                                         break;
                                 }
                                 break;
@@ -986,19 +988,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/four_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/four_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/four_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/four_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/four_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1006,19 +1008,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/four_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/four_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/four_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/four_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/four_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1026,19 +1028,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/four_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/four_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/four_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/four_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/four_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/four_spades.png");
                                         break;
                                 }
                                 break;
@@ -1051,19 +1053,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/five_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/five_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/five_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/five_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/five_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1071,19 +1073,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/five_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/five_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/five_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/five_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/five_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1091,19 +1093,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/five_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/five_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/five_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/five_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/five_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1111,19 +1113,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/five_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/five_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/five_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/five_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/five_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/five_spades.png");
                                         break;
                                 }
                                 break;
@@ -1136,19 +1138,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/six_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/six_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/six_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/six_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/six_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1156,19 +1158,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/six_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/six_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/six_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/six_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/six_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1176,19 +1178,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/six_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/six_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/six_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/six_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/six_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1196,19 +1198,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/six_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/six_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/six_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/six_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/six_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/six_spades.png");
                                         break;
                                 }
                                 break;
@@ -1221,19 +1223,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/seven_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/seven_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/seven_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/seven_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/seven_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1241,19 +1243,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/seven_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/seven_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/seven_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/seven_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/seven_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1261,19 +1263,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/seven_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/seven_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/seven_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/seven_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/seven_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1281,19 +1283,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/seven_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/seven_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/seven_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/seven_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/seven_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/seven_spades.png");
                                         break;
                                 }
                                 break;
@@ -1306,19 +1308,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/eight_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/eight_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/eight_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/eight_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/eight_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1326,19 +1328,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/eight_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/eight_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/eight_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/eight_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/eight_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1346,19 +1348,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/eight_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/eight_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/eight_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/eight_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/eight_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1366,19 +1368,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/eight_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/eight_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/eight_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/eight_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/eight_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/eight_spades.png");
                                         break;
                                 }
                                 break;
@@ -1391,19 +1393,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/nine_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/nine_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/nine_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/nine_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/nine_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1411,19 +1413,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/nine_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/nine_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/nine_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/nine_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/nine_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1431,19 +1433,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/nine_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/nine_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/nine_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/nine_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/nine_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1451,19 +1453,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/nine_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/nine_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/nine_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/nine_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/nine_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/nine_spades.png");
                                         break;
                                 }
                                 break;
@@ -1476,19 +1478,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ten_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ten_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ten_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/ten_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ten_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1496,19 +1498,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ten_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ten_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ten_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/ten_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ten_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1516,19 +1518,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ten_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ten_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ten_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/ten_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ten_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1536,19 +1538,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/ten_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/ten_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/ten_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/ten_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/ten_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/ten_spades.png");
                                         break;
                                 }
                                 break;
@@ -1561,19 +1563,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/jack_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/jack_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/jack_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/jack_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/jack_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1581,19 +1583,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/jack_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/jack_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/jack_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/jack_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/jack_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1601,19 +1603,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/jack_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/jack_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/jack_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/jack_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/jack_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1621,19 +1623,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/jack_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/jack_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/jack_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/jack_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/jack_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/jack_spades.png");
                                         break;
                                 }
                                 break;
@@ -1646,19 +1648,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/queen_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/queen_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/queen_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/queen_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/queen_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1666,19 +1668,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/queen_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/queen_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/queen_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/queen_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/queen_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1686,19 +1688,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/queen_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/queen_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/queen_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/queen_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/queen_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1706,19 +1708,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/queen_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/queen_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/queen_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/queen_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/queen_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/queen_spades.png");
                                         break;
                                 }
                                 break;
@@ -1731,19 +1733,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_clubs.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/king_clubs.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_clubs.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/king_clubs.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_clubs.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/king_clubs.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_clubs.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/king_clubs.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_clubs.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/king_clubs.png");
                                         break;
                                 }
                                 break;
@@ -1751,19 +1753,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_diamonds.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/king_diamonds.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_diamonds.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/king_diamonds.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_diamonds.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/king_diamonds.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_diamonds.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/king_diamonds.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_diamonds.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/king_diamonds.png");
                                         break;
                                 }
                                 break;
@@ -1771,19 +1773,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_hearts.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/king_hearts.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_hearts.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/king_hearts.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_hearts.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/king_hearts.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_hearts.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/king_hearts.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_hearts.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/king_hearts.png");
                                         break;
                                 }
                                 break;
@@ -1791,19 +1793,19 @@ namespace Game
                                 switch (i)
                                 {
                                     case 0:
-                                        card1.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_spades.png");
+                                        card1.Image = Image.FromFile(current + "/Images/Cards/king_spades.png");
                                         break;
                                     case 1:
-                                        card2.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_spades.png");
+                                        card2.Image = Image.FromFile(current + "/Images/Cards/king_spades.png");
                                         break;
                                     case 2:
-                                        card3.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_spades.png");
+                                        card3.Image = Image.FromFile(current + "/Images/Cards/king_spades.png");
                                         break;
                                     case 3:
-                                        card4.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_spades.png");
+                                        card4.Image = Image.FromFile(current + "/Images/Cards/king_spades.png");
                                         break;
                                     case 4:
-                                        card5.Image = Image.FromFile("C:/Users/Student/Desktop/Dewey/Game/Game/Images/Cards/king_spades.png");
+                                        card5.Image = Image.FromFile(current + "/Images/Cards/king_spades.png");
                                         break;
                                 }
                                 break;
